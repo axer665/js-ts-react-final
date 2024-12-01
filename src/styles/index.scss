@@ -1,0 +1,38 @@
+@use "vars.scss" as vars;
+@use "mystyle.scss" as mystyle;
+
+a {
+  color: #727e86 !important;
+  &:hover {
+    color: #0d6efd !important;
+  }
+}
+
+section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.container {
+  max-width: vars.$md1;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.invisible {
+  opacity: 0;
+}
+.nav-link.active {
+  color: #ff0000;
+}
+
+h2,
+.h2 {
+  margin-bottom: 1.5em;
+  margin-top: 2em;
+}
+
+.btn-outline-primary {
+  color: #727e86;
+  border-color: #727e86;
+}
